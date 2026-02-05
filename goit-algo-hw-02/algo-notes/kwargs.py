@@ -1,0 +1,6 @@
+def greet(**kwargs):
+    print(kwargs)
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+greet(name="Alice", age=25)
